@@ -1,0 +1,31 @@
+.container {
+    
+   text-align: center;
+  
+   color :rgb(118, 76, 167);
+  
+}
+
+table {
+   margin : auto ;
+   background-color: rgba(35, 21, 48, 0.24);
+  
+}
+
+Input {
+
+   font-size: 45px;
+   width : 100px;
+   height :auto;
+   
+  
+}
+
+table.col td  {
+   background-color: rgb(174, 174, 202);
+}
+
+Button {
+   width : 45px ;
+   height :100px ;
+}
