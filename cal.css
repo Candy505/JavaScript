@@ -11,21 +11,27 @@ table {
    background-color: rgba(35, 21, 48, 0.24);
   
 }
-
-Input {
+disp{
+  width:500px ;
+}
+input {
 
    font-size: 45px;
-   width : 100px;
+   width : 200px;
    height :auto;
    
   
 }
 
-table.col td  {
+
+
+table.col td {
    background-color: rgb(174, 174, 202);
+  
 }
 
-Button {
+
+button {
    width : 45px ;
    height :100px ;
 }
