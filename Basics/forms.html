@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms in HTML</title>
+
+    <script>
+        function fun() {
+            let m = document.getElementById("first").value + " " + document.getElementById("second").value
+
+            document.write(m)
+        }
+/*
+                       function fun2()
+                       {
+                           document.getElementById("p").innerHTML = m 
+                       }
+         */
+
+    </script>
+</head>
+
+<body>
+    <form>
+        First name : <input type="text" id="first" />
+
+
+        Second name : <input type="text" id="second" />
+
+        <p input type="button" onclick="fun()"></p>
+        <!--<p id="p">Hey I am Kino</p> -->
+
+        <select name="op">
+            <option value="" selected>
+                <--Select--Type-->
+            </option>
+            <option value="Maths">Maths</option>
+
+            <option value="English">English</option>
+            <option value="Biology">Biology</option>
+        </select>
+
+        <input type="radio" name="gender" value "male">male
+        <input type="radio" name="gender" value "Female">Female
+
+
+        <input type="checkbox" name="subj" value ="ice-cream">ice-cream
+        <input type="checkbox" name="subj" value = "coke">coke
+        <input type="file" name="subj" accept="image/*">
+    </form>
+
+
+</body>
+
+</html>
